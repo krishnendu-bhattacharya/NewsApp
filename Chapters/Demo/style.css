@@ -1,0 +1,28 @@
+.click{
+  color: white;
+  background-color:black ;
+}
+
+#button{
+  color:aqua;
+  background-color: green;
+}
+
+#button1{
+  background-color: lightgreen;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+#button2{
+  border: 2px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+}

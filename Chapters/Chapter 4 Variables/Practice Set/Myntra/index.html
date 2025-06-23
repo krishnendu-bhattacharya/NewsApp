@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Set</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="cart"></h1>
+  <button id="button1" onclick="cartQuantity +=1;
+  document.querySelector('#cart').innerText = `Your bag has ${cartQuantity} items`;">Add to bag</button>
+
+
+  <button id="button2" onclick="cartQuantity -= 1;
+  document.querySelector('#cart').innerText = `Your bag has ${cartQuantity} items`;">Move to wishlist❤️</button>
+
+
+  <button id="button3" onclick="cartQuantity += 2;
+  document.querySelector('#cart').innerText = `Your bag has ${cartQuantity} items`;">Add 1+1 Sale Item</button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
